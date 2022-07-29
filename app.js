@@ -28,8 +28,8 @@ input.addEventListener("change", () => {
     if (isNaN(num)) {
         para.textContent = "You need to enter a number!";
     } else {
-        para.textContent = `Squared is ${squared(num)}. `;
-        para.textContent += `Cubed is ${cubed(num)}. `;
-        para.textContent += `Factorial is ${factorial(num)}. `;
+        para.textContent = `Squared = ${squared(num)}. `;
+        para.textContent += `Cubed = ${cubed(num)}.  `;
+        para.textContent += `Factorial = ${factorial(num)}. `;
     }
 });
